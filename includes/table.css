@@ -1,0 +1,61 @@
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	
+	font-family: 'poppins';
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: #212121;
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: rgb(228, 228, 228);
+}
+.card-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.butt{
+	float: right;
+	padding-right:-5px ;
+}
+
+#edit{
+	padding: 5px 5px 5px 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+#delete{
+	padding: 5px 5px 5px 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.fa-trash-o{
+	padding-left: 6px;
+}
+.fa-edit{
+	padding-top: 3px;
+	padding-left: 7px;
+}
